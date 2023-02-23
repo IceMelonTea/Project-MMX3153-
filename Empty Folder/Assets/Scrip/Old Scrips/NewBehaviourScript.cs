@@ -2,41 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class JoeMama : MonoBehaviour
 {
-    string myHouse = "Battle Arena";
+    // Start is called before the first frame update
+    string myhouse = "JoeMama";
     char houseGrade = 'A';
     bool ownerIsMalaysian = true;
-    string houseType = "Raid";
-    string homeAddress = "No.1, Jalan Sana Sini, Taman Pembunuhan, 911999 Konoha, Jakarta";
-    float houseLenght = 30.5f;
-    float houseWidth = 15.8f;
+    string houseType = "concrete house";
+    string homeAddress = "No.1, Jalan 1, Bandar 1, Negeri 1, Negara 1";
+    float houseLength = 30.5f;
+    float housewidth = 15.8f;
     int houseLevel = 3;
-    string houseColor = "white";
-    string welcomeMessage = "Welcome to DeathMatch";
-
-    // Start is called before the first frame update
+    string housecolor = "White";
+    string welcomeMessage = "Welcome to my humble aboad";
     void Start()
     {
-        Debug.Log(myHouse);
+        Debug.Log(myhouse);
         Debug.Log(houseGrade);
         Debug.Log(ownerIsMalaysian);
         Debug.Log(houseType);
         Debug.Log(homeAddress);
-        Debug.Log(houseLenght);
-        Debug.Log(houseWidth);
+        Debug.Log(houseLength);
+        Debug.Log(housewidth);
         Debug.Log(houseLevel);
-        Debug.Log(houseColor);
+        Debug.Log(housecolor);
         Debug.Log(welcomeMessage);
     }
-
-
-   
-
 
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
 }
