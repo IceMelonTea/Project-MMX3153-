@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Empty Folder/Assets/Prefabs/Enemy.prefab.meta
 guid: be7a51a5a5214ec439c04c6a70699667
 PrefabImporter:
+========
+guid: ada65ea94a97fa84ab7c6152f030c1e4
+TextScriptImporter:
+>>>>>>>> 3026e16807501f8d4cdc833a189fe03806a07fce:Empty Folder/Assets/Resources/BillingMode.json.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
