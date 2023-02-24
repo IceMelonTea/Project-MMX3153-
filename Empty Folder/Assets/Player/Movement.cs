@@ -17,6 +17,7 @@ public class Movement : MonoBehaviour
     [SerializeField] LayerMask groundMask;
     bool isGrounded;
 
+    [SerializeField] private AudioSource walkSoundEffect;
     private void Update()
     {
         isGrounded = controller.isGrounded;
@@ -24,8 +25,7 @@ public class Movement : MonoBehaviour
         {
             verticalVelocity.y = 0;
         }
-
-
+        walkSoundEffect.Play();
         Vector3 horizontalVelocity = (transform.right * horizontalInput.x + transform.forward * horizontalInput.y) * speed;
         controller.Move(horizontalVelocity * Time.deltaTime);
 
